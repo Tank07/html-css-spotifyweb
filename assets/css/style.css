@@ -6,11 +6,8 @@
 
   header{
       height:100px;
-      width: 80%;
+      width: 100%;
       background-color: rgb(82, 74, 74);
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
   }
 
   .button-h{
@@ -20,4 +17,14 @@
       padding: 10px 30px;
       background-color: transparent;
       color: white;
+      position: fixed;
+      z-index: 666;
+      right: 0px;
+      margin-top: 20px;
   }
+
+  /* aside{
+      width: 20%;
+      height: 90%;
+      background-color: black;
+  } */
