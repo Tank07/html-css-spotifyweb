@@ -4,10 +4,17 @@
     box-sizing: border-box;
   }
 
-  header{
+  .menu-fixed{
       height:100px;
-      width: 100%;
-      background-color: rgb(82, 74, 74);
+      width: 90%;
+      background-color: rgba(0, 0, 0, 0.7);
+      position: fixed;
+      z-index: 666;
+      top: 0px;
+      right: 0px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
   }
 
   .button-h{
@@ -17,10 +24,7 @@
       padding: 10px 30px;
       background-color: transparent;
       color: white;
-      position: fixed;
-      z-index: 666;
-      right: 0px;
-      margin-top: 20px;
+      
   }
 
   /* aside{
