@@ -4,8 +4,14 @@
     box-sizing: border-box;
   }
 
+  body{
+      height: 100vh;
+      width: 100vw;
+  }
+
+   /* menu fixed */
   .menu-fixed{
-      height:100px;
+      height: 50px;
       width: 90%;
       background-color: rgba(0, 0, 0, 0.7);
       position: fixed;
@@ -24,11 +30,21 @@
       padding: 10px 30px;
       background-color: transparent;
       color: white;
-      
   }
 
-  /* aside{
-      width: 20%;
+  .central-part{
+      display: flex;
+      height: 100vh;
+      width: 100vw;
+  }
+    /* aside */
+    .aside{
+      width: 10%;
       height: 90%;
       background-color: black;
-  } */
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+  }
+
+  /* main-scroll */
