@@ -48,7 +48,7 @@
   }
 
   .central-part img{
-      transform: scale(0.7);
+     transform: scale(0.7);
   }
 
   .svg-profile{
@@ -57,3 +57,47 @@
   }
 
   /* main-scroll */
+
+  .main-scroll{
+      width: 90%;
+      height: 80%;
+      margin-top: 50px;
+      background-color: lightslategray;
+      overflow-y: auto;
+  }
+
+  .main-scroll ul li a{
+      text-transform: uppercase;
+  }
+
+  /* .menu-scroll{
+      display: flex;
+  } */
+
+  /* sezione immagini */
+
+  .main-images{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+  }
+
+  .banana{
+    width: calc((100% / 2) - 5px);
+    margin-bottom: 10px;
+  }
+
+  .song-img{
+    height: 150px;
+    background-image: url("../images/aquietplace.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  .text{
+      text-align: center;
+  }
+
+
