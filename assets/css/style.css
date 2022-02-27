@@ -47,4 +47,13 @@
       flex-direction: column;
   }
 
+  .central-part img{
+      transform: scale(0.7);
+  }
+
+  .svg-profile{
+      background-color: grey;
+      border-radius: 50%;
+  }
+
   /* main-scroll */
