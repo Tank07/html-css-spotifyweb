@@ -12,7 +12,7 @@
    /* menu fixed */
   .menu-fixed{
       height: 50px;
-      width: 90%;
+      width: 60%;
       background-color: rgba(0, 0, 0, 0.7);
       position: fixed;
       z-index: 666;
@@ -39,7 +39,7 @@
   }
     /* aside */
     .aside{
-      width: 10%;
+      width: 40%;
       height: 90%;
       background-color: black;
       display: flex;
@@ -48,8 +48,16 @@
   }
 
   .central-part img{
-     transform: scale(0.7);
+     height: 20px;
   }
+
+  .central-part span{
+    color:grey;
+ }
+
+ .as-top ul li{
+     color: grey;
+ }
 
   .svg-profile{
       background-color: grey;
@@ -59,9 +67,9 @@
   /* main-scroll */
 
   .main-scroll{
-      width: 90%;
-      height: 80%;
-      margin-top: 50px;
+      width: 60%;
+      height: 90%;
+      padding-top: 50px;
       background-color: lightslategray;
       overflow-y: auto;
   }
