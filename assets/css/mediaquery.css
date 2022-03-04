@@ -1,7 +1,29 @@
 /* Media query xs */
 
 @media screen and (max-width: 320px) {
-    p{
+    .none{
         display: none;
     }
+
+    .playlist{
+        display: none;
+    }
+
+    hr{
+        display: none;
+    }
+
+    .aside{
+        width: 10%;
+    }
+
+    .menu-fixed,
+    .main-scroll{
+        width: 90%;
+    }
+
+    .menu-choice{
+        width: calc((100% / 4) - 5px);
+      }
+
   }
