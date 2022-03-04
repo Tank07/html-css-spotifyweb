@@ -25,11 +25,13 @@
 
   .button-h{
       text-transform: uppercase;
+      font-size: 0.5em;
       border: 1px solid white;
       border-radius: 20px;
-      padding: 10px 30px;
+      padding: 10px;
       background-color: transparent;
       color: white;
+      width: 50%;
   }
 
   .central-part{
@@ -47,21 +49,78 @@
       flex-direction: column;
   }
 
-  .central-part img{
-     height: 20px;
+  .aside-sizing{
+      display: flex;
+      align-items: center;
+      margin: 10px;
+  }
+
+  .logo-size{
+      height: 23px;
+      margin-right: 5px;
+  }
+
+  .icon-size{
+      height: 15px;
+      margin-right: 5px;
   }
 
   .central-part span{
     color:grey;
+    font-size: 0.8em;
+ }
+
+ .white{
+     color: white;
+ }
+
+ .grey{
+     color: grey;
+ }
+
+ .as-top h4{
+     color: white;
+     font-size: 0.8em;
+     margin: 10px;
+ }
+
+ .playlist-txt{
+     font-size: 0.8em;
+ }
+
+ .fa-solid{
+    padding: 4px;
+    background-color: grey;
+    margin-left: 10px;
  }
 
  .as-top ul li{
      color: grey;
+     margin: 10px;
+     font-size: 0.6em;
+ }
+
+ .as-bot p{
+    font-size: 0.8em;
+}
+
+ .dwn-icon{
+     height: 10px;
+     filter: invert(0);
+     margin-right: 5px;
  }
 
   .svg-profile{
+      height: 15px;
       background-color: grey;
       border-radius: 50%;
+      margin-right: 5px;
+  }
+
+  hr{
+      margin: 10px;
+      height: 1px;
+      color: grey;
   }
 
   /* main-scroll */
