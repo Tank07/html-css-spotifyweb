@@ -1,0 +1,7 @@
+/* Media query xs */
+
+@media screen and (max-width: 320px) {
+    p{
+        display: none;
+    }
+  }
